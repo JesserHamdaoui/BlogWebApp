@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;800&display=swap');
+
+* {
+  margin: 0;
+  font-family: Montserrat;
+  color: #eee;
+  text-decoration: none;
+}
+
+body {
+  background-color: #222;
+}
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  border-bottom: 1px solid #4d4d4d;
+}
+
+.navbar h1 {
+  color: #53c1d4;
+}
+
+.navbar .links {
+  margin-left: auto;
+}
+
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+
+.navbar a:hover{
+  color: #53c1d4;
+}
+
+.content {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.list {
+  margin-bottom: 50px;
+}
+
+.list .item {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.list .item:hover {
+  border-bottom: 2px solid rgb(17, 163, 168) ;
+  border-left: 2px solid rgb(17, 163, 168) ;
+  box-shadow: rgba(0, 0, 0, 0.15) -1.95px 1.95px 2.6px;
+}
+
+.list .title {
+  color:rgb(17, 163, 168);
+  margin-bottom: 15px;
+  text-decoration: underline;
+}
+
+.list p {
+  color:#53c1d4;
+}
+
+.delete-btn {
+  border: none;
+  padding: 5px 10px;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(214, 95, 95);
+  margin-top: 5px;
+}
+
+
+.create {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+label {
+  margin-top: 20px;
+}
+
+input, textarea {
+  display: block;
+  width: 600px;
+  height: 20px;
+  background-color: #eee;
+  border-radius: 5px;
+  border: none;
+  margin-top: 5px;
+  color: #222;
+  padding: 5px;
+}
+
+
+textarea {
+  height: 150px;
+}
+
+.create .button {
+  margin-top: 15px;
+  background-color: #2badc4;
+  width: 130px;
+  height: 30px;
+  border: none;
+  border-radius: 15px;
+  font-weight: bold;
+  color: #eee;
+}
+
+.create .button:hover {
+  background-color: #53c1d4;
+}
+
+.blog button {
+  background-color: rgb(236, 105, 105);
+  border: none;
+  padding: 5px 10px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.blog button:hover {
+  background-color: rgb(231, 130, 130);
+  cursor: pointer;
+}
